@@ -1,16 +1,21 @@
-## Hi there 👋
+# Majid2055bot — Complete
 
-<!--
-**Majid2055bot/Majid2055bot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+بوت Telegram جاهز للنشر كـ Worker على خدمات استضافة Python.
 
-Here are some ideas to get you started:
+## المزايا
+- واجهة رئيسية
+- أزرار حسابي / الأوامر / معلومات
+- لوحة أرقام
+- لوحة مالك محمية بـ OWNER_ID
+- أوامر /start /menu /id /help /owner
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## التشغيل
+pip install -r requirements.txt
+python bot.py
+
+## الاستضافة
+ارفع المشروع إلى خدمة تدعم Python Worker، ثم أضف:
+BOT_TOKEN = توكن البوت
+OWNER_ID = 8653460899
+
+ملاحظة أمنية: التوكن المرسل في المحادثة يعتبر مكشوفاً؛ الأفضل إلغاؤه وإنشاء توكن جديد قبل التشغيل.
